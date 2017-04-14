@@ -1,7 +1,8 @@
 group 'com.aperentertainment'
-version '1.0.0'
+version '1.1.0'
 
 apply plugin: 'java'
+apply plugin: 'maven-publish'
 
 sourceCompatibility = 1.8
 
@@ -10,4 +11,49 @@ repositories {
 }
 
 dependencies {
+    compile 'org.apache.commons:commons-io:1.3.2'
+}
+
+jar {
+    from 'LICENSE'
+    from 'LICENSE.LESSER'
+}
+
+
+task javadocJar(type: Jar) {
+    classifier = 'javadoc'
+    from javadoc
+}
+
+task sourcesJar(type: Jar) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+artifacts {
+    archives javadocJar, sourcesJar
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId group
+            artifactId archivesBaseName
+            version = version
+
+            from components.java
+
+            artifact sourcesJar {
+                classifier 'sources'
+            }
+
+            artifact javadocJar
+        }
+    }
+
+    repositories {
+        maven {
+            url "$buildDir/repo"
+        }
+    }
 }

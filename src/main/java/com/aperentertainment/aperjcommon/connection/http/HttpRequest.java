@@ -17,22 +17,39 @@
  * along with aperjcommon.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.aperentertainment.aperjcommon;
+package com.aperentertainment.aperjcommon.connection.http;
+
+import com.aperentertainment.aperjcommon.connection.Request;
 
 /**
- * <h1>Nameable</h1>
- * Represents an object which has a name.
+ * <h1>HttpRequest</h1>
+ * This class represents a HTTP request.
  *
  * @author AperEntertainment
  * @version 1.1.0
- * @since 1.0.0
+ * @since 1.1.0
  */
-public interface Nameable
+public class HttpRequest implements Request
 {
+    private String url;
+
     /**
-     * Gets the name of the object.
+     * Constructs a new HTTP request object.
      *
-     * @return Name of the object.
+     * @param url The URL.
      */
-    String getName();
+    public HttpRequest(String url)
+    {
+        this.url = url;
+    }
+
+    /**
+     * Returns the URL.
+     *
+     * @return The URL.
+     */
+    public String getUrl()
+    {
+        return url;
+    }
 }

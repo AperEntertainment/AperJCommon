@@ -410,3 +410,4 @@ $RECYCLE.BIN/
 *.lnk
 
 .idea/
+!/src/

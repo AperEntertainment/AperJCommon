@@ -56,11 +56,11 @@ import java.util.Optional;
 
 /**
  * <h1>AperReflection</h1>
- * <p></p>
  * Reflection class made by AperEntertainment.
  *
  * @author AperEntertainment
- * @version 1.0.0
+ * @version 1.1.0
+ * @since 1.0.0
  */
 public class AperReflection
 {

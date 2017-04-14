@@ -17,22 +17,16 @@
  * along with aperjcommon.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.aperentertainment.aperjcommon;
+package com.aperentertainment.aperjcommon.connection;
 
 /**
- * <h1>Nameable</h1>
- * Represents an object which has a name.
+ * <h1>Response</h1>
+ * This interface represents a response.
  *
  * @author AperEntertainment
  * @version 1.1.0
- * @since 1.0.0
+ * @since 1.1.0
  */
-public interface Nameable
+public interface Response
 {
-    /**
-     * Gets the name of the object.
-     *
-     * @return Name of the object.
-     */
-    String getName();
 }
