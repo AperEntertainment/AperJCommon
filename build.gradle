@@ -16,7 +16,6 @@ dependencies {
 
 jar {
     from 'LICENSE'
-    from 'LICENSE.LESSER'
 }
 
 
