@@ -7,7 +7,7 @@
  * see the LICENSE file.
  */
 
-package com.aperentertainment.aperjcommon.connection;
+package com.aperlambda.apercommon.connection;
 
 import java.io.IOException;
 import java.util.function.Consumer;
@@ -16,8 +16,8 @@ import java.util.function.Consumer;
  * <h1>RequestSender</h1>
  * An RequestSender is able to send a request. After processing the request a response is returned.
  *
- * @author AperEntertainment
- * @version 1.1.0
+ * @author AperLambda
+ * @version 1.1.1
  * @since 1.1.0
  */
 public abstract class RequestSender<S extends Response, Q extends Request>

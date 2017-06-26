@@ -7,9 +7,9 @@
  * see the LICENSE file.
  */
 
-package com.aperentertainment.aperjcommon.connection.http;
+package com.aperlambda.apercommon.connection.http;
 
-import com.aperentertainment.aperjcommon.connection.Response;
+import com.aperlambda.apercommon.connection.Response;
 
 import java.util.Map;
 
@@ -17,8 +17,8 @@ import java.util.Map;
  * <h1>HttpResponse</h1>
  * This class represents a HTTP response.
  *
- * @author AperEntertainment
- * @version 1.1.0
+ * @author AperLambda
+ * @version 1.1.1
  * @since 1.1.0
  */
 public class HttpResponse implements Response

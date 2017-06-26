@@ -7,14 +7,14 @@
  * see the LICENSE file.
  */
 
-package com.aperentertainment.aperjcommon;
+package com.aperlambda.apercommon;
 
 /**
  * <h1>Nameable</h1>
  * Represents an object which has a name.
  *
- * @author AperEntertainment
- * @version 1.1.0
+ * @author AperLambda
+ * @version 1.1.1
  * @since 1.0.0
  */
 public interface Nameable

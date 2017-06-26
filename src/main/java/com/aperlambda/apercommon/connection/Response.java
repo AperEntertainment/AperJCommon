@@ -7,14 +7,14 @@
  * see the LICENSE file.
  */
 
-package com.aperentertainment.aperjcommon.connection;
+package com.aperlambda.apercommon.connection;
 
 /**
  * <h1>Response</h1>
  * This interface represents a response.
  *
- * @author AperEntertainment
- * @version 1.1.0
+ * @author AperLambda
+ * @version 1.1.1
  * @since 1.1.0
  */
 public interface Response

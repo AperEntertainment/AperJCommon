@@ -7,16 +7,16 @@
  * see the LICENSE file.
  */
 
-package com.aperentertainment.aperjcommon.connection.http;
+package com.aperlambda.apercommon.connection.http;
 
-import com.aperentertainment.aperjcommon.connection.Request;
+import com.aperlambda.apercommon.connection.Request;
 
 /**
  * <h1>HttpRequest</h1>
  * This class represents a HTTP request.
  *
- * @author AperEntertainment
- * @version 1.1.0
+ * @author AperLambda
+ * @version 1.1.1
  * @since 1.1.0
  */
 public class HttpRequest implements Request

@@ -38,7 +38,7 @@
 //                                     xXXXXXX**
 //
 
-package com.aperentertainment.aperjcommon;
+package com.aperlambda.apercommon;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -46,13 +46,13 @@ import java.util.Optional;
 
 /**
  * <h1>AperReflection</h1>
- * Reflection class made by AperEntertainment.
+ * Reflection class made by AperLambda.
  *
- * @author AperEntertainment
- * @version 1.1.0
+ * @author AperLambda
+ * @version 1.1.1
  * @since 1.0.0
  */
-public class AperReflection
+public class LambdaReflection
 {
     /**
      * Gets the class at the specified path.

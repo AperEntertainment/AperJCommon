@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017 AperEntertainment <aper.entertainment@gmail.com>
+ * Copyright © 2017 AperLambda <aper.entertainment@gmail.com>
  *
  * This file is part of aperjcommon.
  *
@@ -7,9 +7,9 @@
  * see the LICENSE file.
  */
 
-package com.aperentertainment.aperjcommon.connection.http;
+package com.aperlambda.apercommon.connection.http;
 
-import com.aperentertainment.aperjcommon.connection.RequestSender;
+import com.aperlambda.apercommon.connection.RequestSender;
 import org.apache.commons.io.IOUtils;
 
 import java.io.IOException;
@@ -23,8 +23,8 @@ import java.util.Map;
  * <h1>HttpRequestSender</h1>
  * A HttpRequestSender is able to send a HTTP request. After processing the HTTP request a HTTP response is returned.
  *
- * @author AperEntertainment
- * @version 1.0.0
+ * @author AperLambda
+ * @version 1.1.1
  */
 public class HttpRequestSender extends RequestSender<HttpResponse, HttpRequest>
 {
